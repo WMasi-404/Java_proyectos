@@ -1,6 +1,6 @@
 package Contenedores;
     import Objetos.*;
-public class ColaLinkedList implements TADs.ImplementacionCL {
+public class ColaLinkedList implements TADs.OperacionesCL1 {
     //Atributos
     protected Nodo frenteC;
     protected Nodo finalC;

@@ -1,6 +1,6 @@
 package Contenedores;
 
-public class PilaArr implements TADs.ImplementacionCL{
+public class PilaArr implements TADs.OperacionesCL1{
     // Atributos
     protected Object[] pila;
     protected int cab;

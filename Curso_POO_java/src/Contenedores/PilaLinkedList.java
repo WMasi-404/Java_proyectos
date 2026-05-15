@@ -1,6 +1,6 @@
 package Contenedores;
     import Objetos.*;
-public class PilaLinkedList implements TADs.ImplementacionCL {
+public class PilaLinkedList implements TADs.OperacionesCL1 {
     //Atributos
     protected Nodo pila;
 

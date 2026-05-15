@@ -1,6 +1,6 @@
 package Contenedores;
 
-public class ColaArr implements TADs.ImplementacionCL{
+public class ColaArr implements TADs.OperacionesCL1{
     // Atributos
     protected Object[] cola;
     protected int finalC, frenteC, tamC;
