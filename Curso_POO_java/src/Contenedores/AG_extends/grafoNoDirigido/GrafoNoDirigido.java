@@ -25,6 +25,7 @@ public class GrafoNoDirigido extends AbsGrafoND{
 						this.matrizCosto.actualizar(infinito, j, i);
 					}					
 				}else{
+					scanner.close();
 					this.matrizCosto.actualizar(infinito, i, j);
 				}
 			}

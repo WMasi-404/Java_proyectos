@@ -11,7 +11,6 @@ public class GrafoDirigido extends AbsGrafoD{
 	public void cargarGrafo(){
 		double currCost;		
 		Scanner scanner = new Scanner(System.in);
-		
 		for (int i=0; i<getOrden();i++){
 			for (int j=0;j<getOrden();j++){
 				if (i!=j){
@@ -23,11 +22,11 @@ public class GrafoDirigido extends AbsGrafoD{
 						this.matrizCosto.actualizar(infinito, i, j);
 					}					
 				}else{
+					scanner.close();
 					this.matrizCosto.actualizar(infinito, i, j);
 				}
 			}
-		} 
-   	
+		}
 	}
 
 }

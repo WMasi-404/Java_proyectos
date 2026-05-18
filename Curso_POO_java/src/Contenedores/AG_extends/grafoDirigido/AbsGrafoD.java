@@ -137,7 +137,7 @@ public abstract class AbsGrafoD extends Contenedores.AbsGrafo implements TADs.Op
 					if(((Double)matrizCostoF.devolver(i, k)).doubleValue()+((Double)matrizCostoF.devolver(k, j)).doubleValue()<((Double)matrizCostoF.devolver(i, j)).doubleValue()){
 						costo=new Double(((Double)matrizCostoF.devolver(i, k)).doubleValue()+((Double)matrizCostoF.devolver(k, j)).doubleValue());
 						matrizCostoF.actualizar(costo, i, j);
-						matrizCaminoF.actualizar(new Integer(k), i, j);//para obtener el camino de Floyd.
+						matrizCaminoF.actualizar(new Integer(k), i, j);			//para obtener el camino de Floyd.
 					}
 				}
 			}
@@ -147,7 +147,7 @@ public abstract class AbsGrafoD extends Contenedores.AbsGrafo implements TADs.Op
 			for(int j=0;j<ordenGrafo;j++){
 				if(i!=j){
 					costoF=(double)matrizCostoF.devolver(i, j);
-					if(costoF!=infinito){System.out.println("Costo m�nimo de "+i+" hasta "+j+": "+costoF);}
+					if(costoF!=infinito){System.out.println("Costo minimo de "+i+" hasta "+j+": "+costoF);}
 				}
 				
 				
