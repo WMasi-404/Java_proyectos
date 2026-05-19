@@ -11,8 +11,13 @@ public class MatrizArr {
 		this.matriz=new Object[this.nroFilas][this.nroColumnas];		
 	}
 	
-	public int getNroFilas(){ return this.nroFilas;}
-	public int getNroColumnas(){ return this.nroColumnas;}
+	public int getNroFilas(){ 
+		return this.nroFilas;
+	}
+
+	public int getNroColumnas(){ 
+		return this.nroColumnas;
+	}
 		
 	public void limpiaMatriz(){
 		for (int i=0;i<getNroFilas();i++){
